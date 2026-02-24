@@ -1,0 +1,132 @@
+--------------------------------------------------
+select cm.customer_id, customer_name, status, risk_category
+from customer_master cm
+join customer_risk_profile crf
+using(customer_id)
+join (select customer_id, max(assessment_date) as assessment_date
+from customer_risk_profile
+group by 1) as abc
+on crf.customer_id = abc.customer_id and crf.assessment_date = abc.assessment_date
+ 
+where risk_category ='High'
+order by 1 ASC;
+----------------------------------------------
+select cm.customer_id, customer_name, new_risk_reason
+from customer_master cm
+join customer_risk_profile crf
+using(customer_id)
+join (select customer_id, max(assessment_date) as assessment_date
+from customer_risk_profile
+group by 1) as abc
+on crf.customer_id = abc.customer_id and crf.assessment_date = abc.assessment_date
+ 
+where new_risk_reason like ('%Politic%')
+or cm.customer_id in (select distinct customer_id from pep_relationships)
+ 
+order by 1 ASC;
+------------------------------------------
+1. Single source view of KYC completion status for all customers.
+
+SELECT
+
+  cm.customer_id,
+
+  cm.customer_name,
+
+  CASE
+
+  WHEN MIN(CASE WHEN ks.kyc_completed_flag = 'TRUE' THEN 1 ELSE 0 END) = 1
+
+ 
+
+  THEN 'Completed'
+
+  ELSE 'Pending'
+
+  END AS kyc_completion_status
+
+FROM customer_master cm
+
+LEFT JOIN kyc_status ks
+
+  ON ks.customer_id = cm.customer_id
+
+LEFT JOIN kyc_document d
+
+  ON d.customer_id_sk = cm.customer_id
+
+GROUP BY
+
+  cm.customer_id,
+
+  cm.customer_name
+
+ORDER BY cm.customer_id;
+
+------------------------------------------------------------------------
+
+2. Identify customers with missing or invalid KYC documents.
+
+SELECT
+
+  cm.customer_id,
+
+  cm.customer_name,
+
+  d.document_type,
+
+  d.document_status
+
+FROM customer_master cm
+
+LEFT JOIN kyc_document d
+
+  ON d.customer_id_sk = cm.customer_id
+
+GROUP BY
+
+  cm.customer_id,
+
+  cm.customer_name,
+
+  d.document_type,
+
+  d.document_status
+
+HAVING
+
+  COUNT(d.document_id_sk) = 0 -- Missing docs
+
+  OR MAX(CASE WHEN d.expiry_flag = true THEN 1 ELSE 0 END) = 1 -- Invalid/Expired docs
+
+order by cm.customer_id;
+----------------------------------------------------------------------------------
+3. Track customers whose KYC review is due / overdue.
+
+SELECT DISTINCT
+
+  cm.customer_id,
+
+  cm.customer_name,
+
+  k.next_review_due,
+
+  ks.days_overdue
+
+FROM customer_master cm
+
+JOIN kyc_status ks
+
+  ON ks.customer_id = cm.customer_id
+
+JOIN kyc k
+
+  ON k.kyc_id_sk = ks.kyc_id_sk
+
+WHERE
+
+ 
+
+  ks.days_overdue > 0
+
+ORDER BY cm.customer_id;
