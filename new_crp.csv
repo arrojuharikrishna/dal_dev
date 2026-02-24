@@ -1,0 +1,101 @@
+risk_id,customer_id,risk_category,risk_reason,assessment_date,new_risk_reason
+2,3,Low,System generated risk,2026-01-26,Cross‑border charitable activity
+52,3,Medium,System generated risk,2025-02-10,Cross‑border charitable activity
+3,4,Low,System generated risk,2026-01-19,Recent onboarding
+53,4,Low,System generated risk,2025-02-03,Recent onboarding
+5,6,Low,System generated risk,2026-01-05,Large transaction volume
+55,6,Low,System generated risk,2025-01-20,Large transaction volume
+7,8,Low,System generated risk,2025-12-22,Small domestic sales
+57,8,Low,System generated risk,2025-01-06,Small domestic sales
+8,9,Medium,System generated risk,2025-12-15,Multiple foreign subsidiaries
+58,9,Low,System generated risk,2024-12-30,Multiple foreign subsidiaries
+9,10,Low,System generated risk,2025-12-08,Stable credit history
+59,10,Low,System generated risk,2024-12-23,Stable credit history
+10,11,High,System generated risk,2025-12-01,Political involvement
+60,11,High,System generated risk,2024-12-16,Political involvement
+11,12,Low,System generated risk,2025-11-24,High‑value shipments
+61,12,Low,System generated risk,2024-12-09,High‑value shipments
+12,13,Medium,System generated risk,2025-11-17,Individual taxpayer
+62,13,Low,System generated risk,2024-12-02,Individual taxpayer
+14,15,Low,System generated risk,2025-11-03,Low transaction frequency
+64,15,Medium,System generated risk,2024-11-18,Low transaction frequency
+15,16,Low,System generated risk,2025-10-27,Seasonal cash flow
+65,16,Low,System generated risk,2024-11-11,Seasonal cash flow
+16,17,Medium,System generated risk,2025-10-20,High‑risk jurisdiction
+66,17,Low,System generated risk,2024-11-04,High‑risk jurisdiction
+17,18,Low,System generated risk,2025-10-13,Limited product range
+67,18,Low,System generated risk,2024-10-28,Limited product range
+18,19,Low,System generated risk,2025-10-06,Cross‑border payments
+68,19,Medium,System generated risk,2024-10-21,Cross‑border payments
+19,20,Low,System generated risk,2025-09-29,Domestic focus
+69,20,Low,System generated risk,2024-10-14,Domestic focus
+20,21,High,System generated risk,2025-09-22,Political Contribution
+70,21,High,System generated risk,2024-10-07,Political Contribution
+21,22,Low,System generated risk,2025-09-15,Large asset holdings
+71,22,Low,System generated risk,2024-09-30,Large asset holdings
+22,23,Low,System generated risk,2025-09-08,Consistent payments
+72,23,Medium,System generated risk,2024-09-23,Consistent payments
+24,25,Medium,System generated risk,2025-08-25,Small business
+74,25,Low,System generated risk,2024-09-09,Small business
+25,26,Low,System generated risk,2025-08-18,Variable revenue
+75,26,Low,System generated risk,2024-09-02,Variable revenue
+27,28,Low,System generated risk,2025-08-04,Stable supplier base
+77,28,Low,System generated risk,2024-08-19,Stable supplier base
+28,29,Medium,System generated risk,2025-07-28,Multi‑currency accounts
+78,29,Low,System generated risk,2024-08-12,Multi‑currency accounts
+29,30,Low,System generated risk,2025-07-21,Recent registration
+79,30,Low,System generated risk,2024-08-05,Recent registration
+30,31,High,System generated risk,2025-07-14,Politically exposed person
+80,31,High,System generated risk,2024-07-29,Politically exposed person
+31,32,Low,System generated risk,2025-07-07,Joint venture abroad
+81,32,Low,System generated risk,2024-07-22,Joint venture abroad
+32,33,Medium,System generated risk,2025-06-30,Low turnover
+82,33,Low,System generated risk,2024-07-15,Low turnover
+34,35,Low,System generated risk,2025-06-16,Domestic services
+84,35,Medium,System generated risk,2024-07-01,Domestic services
+35,36,Low,System generated risk,2025-06-09,Frequent wire transfers
+85,36,Low,System generated risk,2024-06-24,Frequent wire transfers
+37,38,Low,System generated risk,2025-05-26,Long‑term client
+1,2,Low,System generated risk,2026-02-02,NGO
+51,2,Low,System generated risk,2025-02-17,NGO
+4,5,Medium,System generated risk,2026-01-12,NGO
+54,5,Low,System generated risk,2025-01-27,NGO
+6,7,Low,System generated risk,2025-12-29,NGO
+56,7,Medium,System generated risk,2025-01-13,NGO
+13,14,Low,System generated risk,2025-11-10,NGO
+63,14,Low,System generated risk,2024-11-25,NGO
+23,24,Low,System generated risk,2025-09-01,NGO
+73,24,Low,System generated risk,2024-09-16,NGO
+26,27,Low,System generated risk,2025-08-11,NGO
+76,27,Medium,System generated risk,2024-08-26,NGO
+33,34,Low,System generated risk,2025-06-23,NGO
+83,34,Low,System generated risk,2024-07-08,NGO
+36,37,Medium,System generated risk,2025-06-02,NGO
+86,37,Low,System generated risk,2024-06-17,NGO
+87,38,Low,System generated risk,2024-06-10,Long‑term client
+38,39,Low,System generated risk,2025-05-19,Multiple credit facilities
+88,39,Medium,System generated risk,2024-06-03,Multiple credit facilities
+39,40,Low,System generated risk,2025-05-12,Limited market exposure
+89,40,Low,System generated risk,2024-05-27,Limited market exposure
+40,41,High,System generated risk,2025-05-05,Political exposure
+90,41,High,System generated risk,2024-05-20,Political exposure
+41,42,Low,System generated risk,2025-04-28,Cross‑border services
+91,42,Low,System generated risk,2024-05-13,Cross‑border services
+42,43,Low,System generated risk,2025-04-21,Single location
+92,43,Medium,System generated risk,2024-05-06,Single location
+43,44,Low,System generated risk,2025-04-14,Export to high‑risk country
+93,44,Low,System generated risk,2024-04-29,Export to high‑risk country
+44,45,Medium,System generated risk,2025-04-07,Stable payroll
+94,45,Low,System generated risk,2024-04-22,Stable payroll
+45,46,Low,System generated risk,2025-03-31,Large equipment financing
+95,46,Low,System generated risk,2024-04-15,Large equipment financing
+46,47,Low,System generated risk,2025-03-24,Consistent billing
+96,47,Medium,System generated risk,2024-04-08,Consistent billing
+48,49,Medium,System generated risk,2025-03-10,Multiple subsidiaries
+98,49,Low,System generated risk,2024-03-25,Multiple subsidiaries
+49,50,Low,System generated risk,2025-03-03,Recent onboarding
+99,50,Low,System generated risk,2024-03-18,Recent onboarding
+50,1,High,System generated risk,2025-02-24,Political involvement
+100,1,High,System generated risk,2024-03-11,Political involvement
+47,48,Low,System generated risk,2025-03-17,NGO
+97,48,Low,System generated risk,2024-04-01,NGO
