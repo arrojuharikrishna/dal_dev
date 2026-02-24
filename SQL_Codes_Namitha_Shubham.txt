@@ -130,3 +130,8 @@ WHERE
   ks.days_overdue > 0
 
 ORDER BY cm.customer_id;
+--------------------------
+ 
+SELECT distinct customer_id, customer_name, compliance_flag, customer_type_valid from customer_master
+where customer_type_valid in ('No','NA')
+order by 1;
