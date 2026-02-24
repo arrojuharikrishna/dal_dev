@@ -1,0 +1,51 @@
+customer_id,customer_name,customer_type,constitution_type,country_code,onboarding_date,status,compliance_flag,customer_type_valid
+1,Customer_1,Individual,Individual,IN,2026-01-25,Active,N    ,NA   
+11,Customer_11,Individual,Individual,IN,2025-08-28,Active,Y    ,NA   
+2,Customer_2,Individual,Individual,IN,2026-01-10,Active,Y    ,Yes  
+3,Customer_3,Entity,Private Limited,IN,2025-12-26,Active,N    ,No   
+4,Customer_4,Individual,Individual,IN,2025-12-11,Active,Y    ,Yes  
+5,Customer_5,Individual,Individual,AE,2025-11-26,Active,N    ,No   
+6,Customer_6,Entity,Private Limited,IN,2025-11-11,Active,Y    ,Yes  
+7,Customer_7,Individual,Individual,IR,2025-10-27,Active,N    ,No   
+8,Customer_8,Individual,Individual,IN,2025-10-12,Active,Y    ,Yes  
+9,Customer_9,Entity,Private Limited,IN,2025-09-27,Active,Y    ,Yes  
+10,Customer_10,Individual,Individual,AE,2025-09-12,Active,Y    ,Yes  
+12,Customer_12,Entity,Private Limited,IN,2025-08-13,Active,Y    ,Yes  
+13,Customer_13,Individual,Individual,IN,2025-07-29,Active,Y    ,Yes  
+14,Customer_14,Individual,Individual,IR,2025-07-14,Active,N    ,No   
+15,Customer_15,Entity,Private Limited,AE,2025-06-29,Active,N    ,No   
+16,Customer_16,Individual,Individual,IN,2025-06-14,Active,Y    ,Yes  
+17,Customer_17,Individual,Individual,IN,2025-05-30,Active,Y    ,Yes  
+18,Customer_18,Entity,Private Limited,IN,2025-05-15,Active,Y    ,Yes  
+19,Customer_19,Individual,Individual,IN,2025-04-30,Active,N    ,No   
+20,Customer_20,Individual,Individual,AE,2025-04-15,Active,Y    ,Yes  
+21,Customer_21,Entity,Private Limited,IR,2025-03-31,Active,N    ,No   
+22,Customer_22,Individual,Individual,IN,2025-03-16,Active,Y    ,Yes  
+23,Customer_23,Individual,Individual,IN,2025-03-01,Active,Y    ,Yes  
+24,Customer_24,Entity,Private Limited,IN,2025-02-14,Active,Y    ,Yes  
+25,Customer_25,Individual,Individual,AE,2025-01-30,Active,N    ,No   
+26,Customer_26,Individual,Individual,IN,2025-01-15,Active,Y    ,Yes  
+27,Customer_27,Entity,Private Limited,IN,2024-12-31,Active,Y    ,Yes  
+28,Customer_28,Individual,Individual,IR,2024-12-16,Active,Y    ,Yes  
+29,Customer_29,Individual,Individual,IN,2024-12-01,Active,Y    ,Yes  
+30,Customer_30,Entity,Private Limited,AE,2024-11-16,Active,Y    ,Yes  
+31,Customer_31,Individual,Individual,IN,2024-11-01,Active,N    ,No   
+32,Customer_32,Individual,Individual,IN,2024-10-17,Active,Y    ,Yes  
+33,Customer_33,Entity,Private Limited,IN,2024-10-02,Active,Y    ,Yes  
+34,Customer_34,Individual,Individual,IN,2024-09-17,Active,Y    ,Yes  
+35,Customer_35,Individual,Individual,IR,2024-09-02,Active,N    ,No   
+36,Customer_36,Entity,Private Limited,IN,2024-08-18,Active,N    ,No   
+37,Customer_37,Individual,Individual,IN,2024-08-03,Active,Y    ,Yes  
+38,Customer_38,Individual,Individual,IN,2024-07-19,Active,Y    ,Yes  
+39,Customer_39,Entity,Private Limited,IN,2024-07-04,Active,Y    ,Yes  
+40,Customer_40,Individual,Individual,AE,2024-06-19,Active,Y    ,Yes  
+41,Customer_41,Individual,Individual,IN,2024-06-04,Active,N    ,No   
+42,Customer_42,Entity,Private Limited,IR,2024-05-20,Active,Y    ,Yes  
+43,Customer_43,Individual,Individual,IN,2024-05-05,Active,Y    ,Yes  
+44,Customer_44,Individual,Individual,IN,2024-04-20,Active,Y    ,Yes  
+45,Customer_45,Entity,Private Limited,AE,2024-04-05,Active,Y    ,Yes  
+46,Customer_46,Individual,Individual,IN,2024-03-21,Active,N    ,No   
+47,Customer_47,Individual,Individual,IN,2024-03-06,Active,Y    ,Yes  
+48,Customer_48,Entity,Private Limited,IN,2024-02-20,Active,Y    ,Yes  
+49,Customer_49,Individual,Individual,IR,2024-02-05,Active,Y    ,Yes  
+50,Customer_50,Individual,Individual,AE,2024-01-21,Active,Y    ,Yes  
