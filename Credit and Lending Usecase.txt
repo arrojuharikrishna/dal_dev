@@ -1,0 +1,42 @@
+Credit and Lending
+
+Probability of default (PD)
+
+The likelihood that a borrower will fail to meet its financial obligations within a specified time horizon
+
+"Data needed to calculate a Probability of Default (PD)
+
+Borrower‑level financial information
+Income statement items (revenue, EBITDA, operating profit).
+Balance‑sheet metrics (total assets, liabilities, equity, leverage ratios).
+Cash‑flow figures (operating cash flow, free cash flow, debt service coverage).
+Liquidity measures (current ratio, quick ratio).
+Credit history and behavior
+Past payment performance (delinquencies, missed payments, restructuring).
+Historical default events (date of default, severity).
+Credit scores or internal rating grades.
+Utilization of credit lines and any covenant breaches.
+Qualitative/transactional data
+Industry sector and sub‑industry classification.
+Business model description and market position.
+Management quality or governance assessments.
+Collateral or guarantee details (if relevant to the rating).
+Macroeconomic and market variables (often used to make the PD forward‑looking)
+GDP growth, unemployment rates, inflation.
+Interest‑rate levels, exchange‑rate movements.
+Commodity price indices for sector‑specific exposure.
+Modeling inputs / Features
+Derived ratios (e.g., debt‑to‑EBITDA, interest‑coverage, profit‑margin).
+Dummy variables for categorical factors (e.g., industry dummy, region dummy).
+Lagged variables to capture trends over time.
+Outcome variable for model training
+Binary indicator of default (1 = default within the target horizon, 0 = non‑default).
+Time‑to‑default information if using survival‑analysis techniques."
+
+Business Impact:
+Without PD:
+
+Credit risk cannot be quantified
+Lending decisions become subjective
+Risk cannot be compared across borrowers
+PD turns uncertainty into a measurable probability
